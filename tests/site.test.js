@@ -62,6 +62,17 @@ describe('index.html', () => {
       'security-log-analyzer',
       'wp-smart-seo',
       'fastapi-task-manager-api',
+      'laravel-school-management-api',
+      'paystack-payment-integration-php',
+      'flutter-ecommerce-app',
+      'flutter-chat-app-ui',
+      'react-admin-dashboard',
+      'node-express-auth-api',
+      'ai-resume-screener-python',
+      'telegram-bot-python',
+      'web-scraper-automation-python',
+      'vulnerability-scanner-python',
+      'seo-site-audit-tool-python',
     ];
     for (const repo of repos) {
       assert.ok(html.includes(`https://github.com/Josephobaje/${repo}"`), repo);
