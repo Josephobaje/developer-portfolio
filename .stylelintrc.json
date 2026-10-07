@@ -1,0 +1,8 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "declaration-property-value-no-unknown": true,
+    "selector-class-pattern": null,
+    "no-descending-specificity": null
+  }
+}

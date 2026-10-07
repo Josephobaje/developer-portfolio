@@ -1,0 +1,25 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio of Joseph Obaje. Static HTML, CSS and vanilla JavaScript, no build step.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Joseph Obaje <josephobaje264@gmail.com> (https://github.com/Josephobaje)",
+  "scripts": {
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
+    "lint:html": "htmlhint \"*.html\"",
+    "lint:css": "stylelint \"css/**/*.css\"",
+    "lint:js": "eslint .",
+    "test": "node --test tests/",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
