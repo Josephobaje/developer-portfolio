@@ -66,6 +66,7 @@ describe('index.html', () => {
       'paystack-payment-integration-php',
       'flutter-ecommerce-app',
       'flutter-chat-app-ui',
+      'flutter-family-safety-app',
       'react-admin-dashboard',
       'node-express-auth-api',
       'ai-resume-screener-python',

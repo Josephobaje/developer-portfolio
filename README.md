@@ -21,7 +21,7 @@ JavaScript**. There is no framework and no build step. It is hosted on GitHub Pa
   - skills (Flutter, Dart, Python, PHP, MySQL, WordPress, REST APIs, cybersecurity, SEO)
   - projects
   - contact
-- **Projects grid** with 19 of my GitHub projects (Flutter apps, Laravel, PHP, Node.js and FastAPI APIs, a React dashboard, Python security, SEO and automation tools).
+- **Projects grid** with 20 of my GitHub projects (Flutter apps, Laravel, PHP, Node.js and FastAPI APIs, a React dashboard, Python security, SEO and automation tools).
   - Each card has a real screenshot, a summary, tech tags and a link to the repository.
   - Filters (Flutter, Python, PHP, JavaScript, APIs, AI & Automation, WordPress, Security) use `aria-pressed` buttons and announce the result to screen readers.
 - **Dark/light theme toggle**:
